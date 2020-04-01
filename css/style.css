@@ -120,6 +120,9 @@ footer{
 div p{
     color: #000000;
 }
+section>p{
+    color: #000000;
+}
 #large{
     font-size: 30px;
 }
