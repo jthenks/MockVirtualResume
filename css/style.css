@@ -5,12 +5,21 @@ body {
 }
 
 #skiplink{
-    position: absolute;
-    top: -100px;
+  position: absolute;
+  left: -999px;
+  width:1px;
+  height: 1px;
+  top: auto;
 }
 #skiplink:focus{
-    top: 10px;
-    outline: 4px solid #ffc0cb;
+  outline: 4px solid #ffc0cb;
+  color: #000000;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}
 }
 :focus{
     outline: 3px solid #ffc0cb;
