@@ -1,0 +1,257 @@
+body {
+    color: #ffffff;
+    background-color: #DFCFBE;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#skiplink{
+    position: absolute;
+    top: -100px;
+}
+#skiplink:focus{
+    top: 10px;
+    outline: 4px solid #ffc0cb;
+}
+:focus{
+    outline: 3px solid #ffc0cb;
+}
+video:focus{
+    outline: 3px solid #000000;
+}
+
+header{
+    background: #000000;
+    padding: 30px 30px 8px 30px;
+}
+
+footer {
+    
+    background-color: #000000;
+    padding: 15px;
+    
+
+}
+footer p{
+    padding: 20px 10px 10px 40px;
+}
+
+.space{
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+
+.pink{
+    color: #ffc0cb;
+    font-size: 14;
+
+}
+.blue{
+    color: #add8e6;
+    font-size: 14;
+}
+
+/*  ----------------------------------------------------------------------------------*/
+
+h1{
+    font-size: 30px;
+}
+
+#item1{
+    margin: 40px 30px 30px 0px;
+    grid-column: 2/9;
+    font-size: 20px;
+    color: #000000;
+}
+
+#right{
+    float: right;
+    font-size: 16px;
+}
+
+#item2-1 p{
+    font-size: 15px;
+}
+h2 {
+    font-size: 20px;
+}
+.bullets {
+    list-style-type:disc;
+    font-size: 20px;
+    padding-left: 25px;
+
+}
+#experience{
+    display: grid;
+    grid-column: 2/6;
+    grid-row: 3/4;
+    color: #000000;
+    padding: 80px;
+}
+footer{
+    grid-column: 1/-1;
+    background-color: #000000;
+}
+
+.wrapper2{
+    display: grid;
+    height:100%;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0%;
+    padding: 0%;
+}
+#writing{
+    margin: 40px 30px 30px 30px;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    font-size: 20px;
+    padding: 15px;
+    color: #000000;
+
+}
+#video{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+div p{
+    color: #000000;
+}
+#large{
+    font-size: 30px;
+}
+
+.padding{
+    padding: 25px 0px;
+}
+
+
+@media screen and (min-width: 150px){
+    .wrapper {
+        display: grid;
+        height:100%;
+        grid-template-columns: 1fr 10fr 5fr;
+        grid-template-rows: 1fr 5fr 5fr;
+        grid-gap: 10px;
+        margin: 0%;
+        padding: 0%;
+    }
+    #initials{
+        display: block;
+        font-size: 50px;
+        color: #ffffff;
+        font-family: Helvetica, sans-serif, Arial;
+
+        padding-bottom: 30px;
+    }
+    #name{
+        display: none;
+    }
+    #item1{
+        margin: 40px 30px 0px 0px;
+        grid-column: 2/9;
+        grid-row: 1/2;
+        font-size: 20px;
+        align-content: center;
+        color: #000000;
+
+    }
+    #item2{
+      display: grid;
+      height:100%;
+      grid-column: 2/9;
+      margin-right: 40px;
+      grid-gap: 40px;
+
+      
+    }
+    
+    #item2-1 {
+      grid-column: 1/-1;
+      background-color: #000000;
+      padding: 15px;
+    }
+    
+    #item2-2 {
+      grid-column: 1/-1;
+      background-color: #000000;
+      padding: 15px;
+      
+    }
+    
+}
+
+@media screen and (min-width: 600px){
+    .hidden{
+        display: block;
+    }
+    .right{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .hidden{
+        display: none;
+    }
+    .right{
+        display: block;
+        float: right;
+        font-size: 16px;
+    }
+    .wrapper {
+        display: grid;
+        height:100%;
+        grid-template-columns: 0.5fr 10fr 2fr;
+        grid-template-rows: 1fr 620px 5fr;
+        grid-gap: 10px;
+        margin: 0%;
+        padding: 0%;
+    }
+    #initials{
+        display:none;
+    }
+    
+    #name{
+        display: block;
+        font-size: 50px;
+        color: #ffffff;
+        font-family: Helvetica, sans-serif, Arial;
+    
+        padding-bottom: 30px;
+    }
+
+    #item2{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        height:100%;
+        grid-column: 2/9;
+        grid-row:2/3;
+        grid-gap: 10px;
+          
+    }
+        
+    #item2-1 {
+        grid-column: 1/2;
+        background-color: #000000;
+        padding: 15px;
+        
+    }
+        
+    #item2-2 {
+        grid-column: 2/4;
+        background-color: #000000;
+        padding: 15px;
+        
+
+
+    }
+    .hidden{
+        display: none;
+    }
+        
+
+}
