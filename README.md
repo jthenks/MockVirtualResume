@@ -1,4 +1,4 @@
-# Web1Assignment3
+# MockVirtualResume
 
 This is a webpage that goes over some of my basic resume information. It includes education, skills, work experience, and a bit of information about my past experience as a speed skater. 
 
